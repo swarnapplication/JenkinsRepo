@@ -1,7 +1,7 @@
 node{
 stage('SCM Checkout')
 {
-git 'https://github.com/swarnjava/awsgitrepo'
+git 'https://github.com/swarnapplication/JenkinsRepo'
 }
 
 stage('Compile-Package'){
