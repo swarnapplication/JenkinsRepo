@@ -11,6 +11,6 @@ stage('Compile-Package'){
 }
   stage('Deployment'){
     echo "deployment stage"
-  
+  sh "aws s3 cp /var/lib/jenkins/workspace/SpringBootApplication-Jenkins-Job/target/SpringBootDBAppTest-0.0.1-SNAPSHOT.jar s3://swarn-repo-bucket/"
   }
 }
