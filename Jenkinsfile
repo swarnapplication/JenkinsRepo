@@ -5,7 +5,7 @@ git 'https://github.com/swarnapplication/JenkinsRepo'
 }
 
 stage('Compile-Package'){
-  def mvnHome = tool name: 'MAVEN 3.2.5', type: 'maven'
+ 
  
   sh "/usr/share/apache-maven/bin/mvn package"
 }
