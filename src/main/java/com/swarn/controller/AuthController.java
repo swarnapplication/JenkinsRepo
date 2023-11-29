@@ -40,7 +40,7 @@ public class AuthController {
 		
 		jwtUtil.validateAccessToken(authHeader);
 		
-		return "Hello: "+generatedToken;
+		return "Hello Swarnendu : "+generatedToken;
 	}
 	
 	
